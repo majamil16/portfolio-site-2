@@ -1,0 +1,37 @@
+.home-body p{
+    font-family: 'Poppins';
+    font-size: 24px;
+    color: #1e1e1e;
+}
+
+.home-body h1{
+    font-family: 'Poppins'; 
+    font-size: 60px;
+    color: #DEC6C6;
+    position: relative;
+
+}
+
+.home-background{
+    
+    /* position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background: lime; */
+    /* position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background: lime;
+    height: 100px;
+    z-index: 1; */
+  
+    width: 100%;
+    height: 80vh;
+    background: lime;
+  
+    
+
+    
+}

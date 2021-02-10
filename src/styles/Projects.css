@@ -1,0 +1,12 @@
+.row-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 0 30px 0;
+    margin: auto; /* centers it on the page */
+}
+
+.project{
+    padding: 0;
+}
+

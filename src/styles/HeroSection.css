@@ -1,0 +1,25 @@
+.hero-container p{
+    font-family: 'Poppins';
+    font-size: 24px;
+    color: #1e1e1e;
+
+}
+
+.hero-container h1{
+    font-family: 'Poppins'; 
+    font-size: 60px;
+    color: #DEC6C6;
+    letter-spacing: 1px;
+}
+
+.hero-container{
+    background: url('../images/dunes.jpg') center center/cover no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    object-fit: contain;
+    justify-content: center;
+
+}
+

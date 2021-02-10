@@ -1,0 +1,45 @@
+#project-box {
+    width: 358px;
+    height: 358px;
+    background-color: #c4c4c4;
+    border-radius: 15px;
+    position: relative;
+    padding: 0;
+    text-align: center;
+} 
+.project-box p {
+    font-family: 'Poppins';
+    font-weight: bold;
+    /* left: 45%; */
+    position:absolute;
+    width:100%;
+    bottom : 52px;
+    color: #1e1e1e;
+}
+
+
+.project-icon-circle { 
+    width: 212px;
+    height: 212px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    /* Center vertically */
+    position: absolute;
+    top: 40%;
+    margin-top: -106px; /* half this element's height */
+    /* Center horizontally */
+    left: 50%;
+    margin-left: -106px; /* half this element's height */
+
+} 
+
+.plus-icon {
+    position:absolute;
+    vertical-align: middle;
+    padding: 0px;
+    bottom : 20px;
+    left : 50%;
+    cursor: pointer;
+   
+    
+}

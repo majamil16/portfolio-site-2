@@ -1,0 +1,47 @@
+.navbar {
+    background-color:  rgba(229, 229, 229, 0.4);
+
+    margin: 0;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    height: 120px;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+   
+}
+
+.navbar ul li:not(:first-child) {
+    float: right;
+    /* padding: 1em 3em; */
+    padding-top : 1em;
+    padding-left: 3em;
+  }
+
+.navbar ul li {
+    display: inline-block;
+    list-style-type: none;
+    
+}
+
+.navbar ul li a {
+    display: block;
+    line-height: 3em;
+    /* padding: 1em 3em; */
+    text-decoration: none;
+    font-family: "Poppins";
+    color: #1E1E1E;
+}
+
+.navbar ul li a.logo {
+    /* background-color: green; */
+
+     font-size: 28px;
+}
+
+.navbar ul li a:hover {
+    background-color: blue;
+}

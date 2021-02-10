@@ -1,0 +1,21 @@
+.proj-desc-box {
+    background-color: #DEC6C6;
+    border-radius: 15px;
+    text-align: center;
+    width: 100%;
+    margin: auto; /* centers it on the page */
+    position: relative;
+
+}
+
+#close-x{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.proj-desc-box h1, p {
+    font-family: "Poppins";
+    color: #1e1e1e;
+}
